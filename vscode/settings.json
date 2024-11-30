@@ -1,0 +1,310 @@
+{
+  // base
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "editor.bracketPairColorization.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.inlineSuggest.showToolbar": "always",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "none",
+
+  // vim
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.vimrc.enable": true,
+  "vim.foldfix": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // base
+    {
+      "before": ["<leader>", "h"],
+      "commands": [
+        {
+          "command": "editor.action.showHover"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": [
+        {
+          "command": "editor.action.rename"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "."],
+      "commands": [
+        {
+          "command": "editor.action.quickFix"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "%"],
+      "commands": [
+        {
+          "command": "editor.emmet.action.matchTag"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "/"],
+      "commands": [
+        {
+          "command": "editor.action.commentLine"
+        }
+      ]
+    },
+    {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    {
+      "before": ["<C-r>"],
+      "commands": ["redo"]
+    },
+
+    // editor operations
+    {
+      "before": ["s", "H"],
+      "commands": [
+        {
+          "command": "workbench.action.moveEditorToLeftGroup"
+        }
+      ]
+    },
+    {
+      "before": ["s", "J"],
+      "commands": [
+        {
+          "command": "workbench.action.moveEditorToBelowGroup"
+        }
+      ]
+    },
+    {
+      "before": ["s", "K"],
+      "commands": [
+        {
+          "command": "workbench.action.moveEditorToAboveGroup"
+        }
+      ]
+    },
+    {
+      "before": ["s", "L"],
+      "commands": [
+        {
+          "command": "workbench.action.moveEditorToRightGroup"
+        }
+      ]
+    },
+    {
+      "before": ["s", "m"],
+      "commands": [
+        {
+          "command": "workbench.action.minimizeOtherEditors"
+        }
+      ]
+    },
+    {
+      "before": ["s", "M"],
+      "commands": [
+        {
+          "command": "workbench.action.evenEditorWidths"
+        }
+      ]
+    },
+    {
+      "before": ["s", "-"],
+      "commands": [
+        {
+          "command": "workbench.action.decreaseViewWidth"
+        }
+      ]
+    },
+    {
+      "before": ["s", "="],
+      "commands": [
+        {
+          "command": "workbench.action.increaseViewWidth"
+        }
+      ]
+    },
+
+    // fold and unfold
+    {
+      "before": ["<leader>", "f"],
+      "commands": [
+        {
+          "command": "editor.fold"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "f", "a"],
+      "commands": [
+        {
+          "command": "editor.foldAll"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "f", "r"],
+      "commands": [
+        {
+          "command": "editor.foldRecursively"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "u"],
+      "commands": [
+        {
+          "command": "editor.unfold"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "u", "a"],
+      "commands": [
+        {
+          "command": "editor.unfoldAll"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "u", "r"],
+      "commands": [
+        {
+          "command": "editor.unfoldRecursively"
+        }
+      ]
+    },
+
+    // definitions and references
+    {
+      "before": ["<leader>", "g", "d"],
+      "commands": [
+        {
+          "command": "editor.action.revealDefinition"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "g", "r"],
+      "commands": [
+        {
+          "command": "editor.action.goToReferences"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "p", "d"],
+      "commands": [
+        {
+          "command": "editor.action.peekDefinition"
+        }
+      ]
+    },
+
+    // GitHub Copilot
+    {
+      "before": ["<leader>", "i"],
+      "commands": [
+        {
+          "command": "inlineChat.start"
+        }
+      ]
+    },
+
+    // cSpell
+    {
+      "before": ["<leader>", "a", "w"],
+      "commands": [
+        {
+          "command": "cSpell.addWordToDictionary"
+        }
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    // base
+    {
+      "before": ["<leader>", "/"],
+      "commands": [
+        {
+          "command": "editor.action.commentLine"
+        }
+      ]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": [
+        {
+          "command": "editor.emmet.action.wrapWithAbbreviation"
+        }
+      ]
+    },
+
+    // GitHub Copilot
+    {
+      "before": ["<leader>", "i"],
+      "commands": [
+        {
+          "command": "inlineChat.start"
+        }
+      ]
+    }
+  ],
+
+  // frontend
+  "files.associations": {
+    "*.css": "css",
+    "css": "css"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.useESLintClass": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "emmet.syntaxProfiles": {
+    "jsx": {
+      "markup.attributes": {
+        "class*": "className"
+      },
+      "markup.valuePrefix": {
+        "class*": "styles"
+      }
+    }
+  },
+  "javascript.preferences.jsxAttributeCompletionStyle": "auto",
+  "typescript.preferences.jsxAttributeCompletionStyle": "auto",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
+  // Go
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.tabSize": 4
+  },
+  "gopls": {
+    "formatting.gofumpt": true
+  },
+
+  // Markdown
+  "markdown.preview.breaks": true,
+
+  // theme
+  "workbench.colorTheme": "Atom One Dark"
+}

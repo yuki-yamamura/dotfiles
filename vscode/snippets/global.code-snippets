@@ -1,0 +1,69 @@
+{
+  "console: log() method": {
+    "prefix": "cl",
+    "body": ["console.log($1)"],
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  },
+  "console: error() method": {
+    "prefix": "ce",
+    "body": ["console.error($1)"],
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  },
+  "Default Import": {
+    "prefix": "di",
+    "body": ["import ${2:name} from '${1:module-name}';"],
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  },
+  "Immediately Invoked Function Expression": {
+    "prefix": "iife",
+    "body": ["(async () => {", "  $1", "})();"],
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  },
+  "Named Import": {
+    "prefix": "ni",
+    "body": ["import { ${2:name} } from '${1:module-name}';"],
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  },
+  "Type-Only Import": {
+    "prefix": "toi",
+    "body": ["import type { ${2:name} } from '${1:module-name}';"],
+    "scope": "typescript,typescriptreact"
+  },
+  "Namespace import": {
+    "prefix": "nsi",
+    "body": ["import * as ${2:name} from '${1:module-name}';"],
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  },
+  "JSON: parse() method": {
+    "prefix": "jp",
+    "body": ["JSON.parse($1)"],
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  },
+  "JSON: stringify() method": {
+    "prefix": "js",
+    "body": ["JSON.stringify($1)"],
+    "scope": "javascript,typescript,javascriptreact,typescriptreact"
+  },
+  "Component Story Format": {
+    "prefix": "csf",
+    "body": [
+      "import type { Meta, StoryObj } from \"@storybook/react\";",
+      "",
+      "import { ${1:component} } from \"./$1\";",
+      "",
+      "const meta = {",
+      "  component: $1,",
+      "} satisfies Meta<typeof $1>;",
+      "",
+      "export default meta;",
+      "type Story = StoryObj<typeof meta>;",
+      "",
+      "export const Default: Story = {",
+      "  args: {",
+      "    $2",
+      "  },",
+      "};",
+    ],
+    "scope": "typescript,typescriptreact",
+  }
+}

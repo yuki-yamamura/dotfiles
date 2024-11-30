@@ -1,0 +1,78 @@
+{
+  "React Function Component": {
+    "prefix": "fc",
+    "body": [
+      "export const ${1:$TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    $2",
+      "  );",
+      "};",
+    ],
+  },
+  "React Function Component With Props": {
+    "prefix": "fcwp",
+    "body": [
+      "type Props = {",
+      "  $1",
+      "};",
+      "",
+      "export const ${2:$TM_FILENAME_BASE} = (${3:props} :Props) => {",
+      "  return (",
+      "    $4",
+      "  );",
+      "};",
+    ],
+  },
+  "React Server Component": {
+    "prefix": "sc",
+    "body": [
+      "export const ${1:$TM_FILENAME_BASE} = async () => {",
+      "  return (",
+      "    $2",
+      "  );",
+      "};",
+    ],
+  },
+  "React Server Component With Props": {
+    "prefix": "scwp",
+    "body": [
+      "type Props = {",
+      "  $1",
+      "};",
+      "",
+      "export const ${2:$TM_FILENAME_BASE} = async (${3:props}: Props) => {",
+      "  return (",
+      "    $4",
+      "  );",
+      "};",
+    ],
+  },
+  "React Client Component": {
+    "prefix": "cc",
+    "body": [
+      "'use client';",
+      "",
+      "export const ${1:$TM_FILENAME_BASE} = async () => {",
+      "  return (",
+      "    $2",
+      "  );",
+      "};",
+    ]
+  },
+  "React Client Component With Props": {
+    "prefix": "ccwp",
+    "body": [
+      "'use client';",
+      "",
+      "type Props = {",
+      "  $1",
+      "};",
+      "",
+      "export const ${2:$TM_FILENAME_BASE} = async (${3:props} : Props) => {",
+      "  return (",
+      "    $4",
+      "  );",
+      "};",
+    ]
+  },
+}

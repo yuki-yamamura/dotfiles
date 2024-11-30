@@ -1,0 +1,233 @@
+{
+  "title": "key bindings for fn",
+  "rules": [
+    {
+      "description": "change option+1 to f1",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "1",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+2 to f2",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "2",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+3 to f3",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+4 to f4",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "4",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+5 to f5",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "5",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+6 to f6",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "6",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+7 to f7",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "7",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+8 to f8",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+9 to f9",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+0 to f10",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+hyphen to f11",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change option+equal_sign to f12",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "equal_sign",
+            "modifiers": {
+              "mandatory": ["option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f12"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
