@@ -117,7 +117,7 @@
       ]
     },
     {
-      "description": "change control+f6 to opening Discord",
+      "description": "change control+f6 to opening Slack",
       "manipulators": [
         {
           "type": "basic",
@@ -129,7 +129,64 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Discord'"
+              "shell_command": "open -a 'Mail'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change control+f7 to opening TablePlus",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f7",
+            "modifiers": {
+              "mandatory": ["control"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'TablePlus'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change control+f8 to opening Google Chrome",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f8",
+            "modifiers": {
+              "mandatory": ["control"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Google Chrome'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "change control+f9 to opening Music",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9",
+            "modifiers": {
+              "mandatory": ["control"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Music'"
             }
           ]
         }
