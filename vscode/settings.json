@@ -305,6 +305,6 @@
   // Markdown
   "markdown.preview.breaks": true,
 
-  // theme
-  "workbench.colorTheme": "Atom One Dark"
+  // Theme
+  "workbench.colorTheme": "Catppuccin Frappé"
 }
