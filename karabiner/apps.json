@@ -41,7 +41,7 @@
       ]
     },
     {
-      "description": "change control+f2 to opening Terminal",
+      "description": "change control+f2 to opening iTerm",
       "manipulators": [
         {
           "type": "basic",
@@ -53,7 +53,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Terminal'"
+              "shell_command": "open -a 'iTerm'"
             }
           ]
         }
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "description": "change control+f6 to opening Slack",
+      "description": "change control+f6 to opening Mail",
       "manipulators": [
         {
           "type": "basic",
@@ -149,44 +149,6 @@
           "to": [
             {
               "shell_command": "open -a 'TablePlus'"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "change control+f8 to opening Google Chrome",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f8",
-            "modifiers": {
-              "mandatory": ["control"]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Google Chrome'"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "change control+f9 to opening Music",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f9",
-            "modifiers": {
-              "mandatory": ["control"]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Music'"
             }
           ]
         }
