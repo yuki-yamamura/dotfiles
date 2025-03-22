@@ -1,7 +1,7 @@
 [color]
 ui = true
 [core]
-editor = vim
+	editor = nvim
 [diff]
 tool = vscode
 [difftool "vscode"]
@@ -17,4 +17,5 @@ defaultBranch = main
 ff = only
 [user]
 name = Yuki Yamamura
-email = yuki.yamamura@icloud.com
+email = 126521201+yuki-yamamura@users.noreply.github.com
+
