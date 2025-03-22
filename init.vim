@@ -6,6 +6,7 @@ set visualbell t_vb=
 set path+=$PWD/**
 let mapleader = "\<space>"
 syntax on
+set noshowmode
 
 set autoindent
 set expandtab 
@@ -41,13 +42,9 @@ nmap sj <C-w>j
 nmap sl <C-w>l
 
 set laststatus=2
-let g:lightline = {
-      \ 'colorscheme': 'nord',
-      \ }
-
 call plug#begin(expand('~/.vim/plugged'))
-Plug 'arcticicestudio/nord-vim', { 'tag': 'v0.11.0' }
 Plug 'https://github.com/adelarsq/vim-matchit'
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'rhysd/vim-gfm-syntax'
 Plug 'https://tpope.io/vim/surround.git'
 Plug 'itchyny/lightline.vim'
@@ -58,10 +55,8 @@ Plug 'cohama/lexima.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-let g:nord_disable_background = v:true
-colorscheme nord 
+let g:lightline = {'colorscheme': 'catppuccin'}
+colorscheme catppuccin-frappe
 
 vmap <leader>a <Plug>(coc-codeaction-selected)
 nmap <leader>a <Plug>(coc-codeaction-selected)
-command! -nargs=0 Prettier :call CocAction('format', 'prettier.formatFile')
-
