@@ -3,7 +3,8 @@ setopt PROMPT_SUBST
 export PROMPT='$ '
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_MESSAGES=en_US.UTF-8
 
 # autocomplete
 source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh 
