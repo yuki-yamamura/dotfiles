@@ -33,6 +33,9 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 
+## pyenv
+export PATH="${HOME}/.pyenv/shims:${PATH}"
+
 # Docker Desktop
 source /Users/yuki/.docker/init-zsh.sh || true
 
