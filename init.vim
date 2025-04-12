@@ -7,6 +7,7 @@ set path+=$PWD/**
 let mapleader = "\<space>"
 syntax on
 set noshowmode
+set laststatus=2
 
 set autoindent
 set expandtab 
@@ -39,10 +40,9 @@ nmap sk <C-w>k
 nmap sj <C-w>j
 nmap sl <C-w>l
 
-set laststatus=2
 call plug#begin(expand('~/.vim/plugged'))
-Plug 'https://github.com/adelarsq/vim-matchit'
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'https://github.com/adelarsq/vim-matchit'
 Plug 'rhysd/vim-gfm-syntax'
 Plug 'https://tpope.io/vim/surround.git'
 Plug 'itchyny/lightline.vim'
@@ -53,8 +53,7 @@ Plug 'cohama/lexima.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-let g:lightline = {'colorscheme': 'catppuccin'}
+autocmd VimEnter * highlight Normal ctermbg=NONE guibg=NONE
 colorscheme catppuccin-frappe
+let g:lightline = {'colorscheme': 'catppuccin'}
 
-vmap <leader>a <Plug>(coc-codeaction-selected)
-nmap <leader>a <Plug>(coc-codeaction-selected)
