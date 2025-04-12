@@ -47,6 +47,10 @@ eval "$(gh copilot alias -- zsh)"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$PATH:$HOME/.local/bin"
 
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPTS='--no-height --extended --exact'
