@@ -45,6 +45,7 @@ Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'https://github.com/adelarsq/vim-matchit'
 Plug 'rhysd/vim-gfm-syntax'
 Plug 'https://tpope.io/vim/surround.git'
+Plug 'https://tpope/vim-repeat.git'
 Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
