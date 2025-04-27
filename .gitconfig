@@ -19,3 +19,5 @@ ff = only
 name = Yuki Yamamura
 email = 126521201+yuki-yamamura@users.noreply.github.com
 
+[ghq]
+	root = ~/src
