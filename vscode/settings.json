@@ -312,5 +312,11 @@
   // Terraform
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform"
-  }
+  },
+
+  // GitHub Copilot
+  "github.copilot.chat.codesearch.enabled": true,
+  "chat.editing.confirmEditRequestRemoval": false,
+  "chat.editing.confirmEditRequestRetry": false,
+  "github.copilot.nextEditSuggestions.enabled": false
 }
