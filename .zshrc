@@ -68,25 +68,21 @@ bindkey '^R' select-history
 fcd() {
   local dir
   dir=$(find ${1:-.} -path '*/\.*' -prune \
+                  -o -path '*/node_modules/*' -prune \
                   -o -type d -print 2> /dev/null | fzf +m) &&
   cd "$dir"
 }
 
 fls() {
-  fzf -m | xargs ls -la
+  fd -t d | fzf -m | xargs ls -la
 }
 
 ftree() {
-  fzf -m | xargs tree
+  fd -t d | fzf -m | xargs tree
 }
 
 frm() {
   fzf -m | xargs rm -rf
-}
-
-fmkdir() {
-  dir="$1"
-  mkdir -p "$(fd -t d | fzf)${dir}"
 }
 
 fcode() {
@@ -109,7 +105,7 @@ fcode() {
   fi
 }
 
-fnvim() {
+fv() {
   nvim $(fzf)
 }
 
@@ -133,11 +129,4 @@ fgr() {
     awk '{if (substr($0, 2, 1) != " ") print $2}' |
     fzf -m |
     xargs git restore --source=HEAD
-}
-
-fgd() {
-  git status --short |
-    awk '{if (substr($0, 1, 1) !~ /[ ?]/) print $2}' |
-    fzf |
-    xargs git difftool -y --cached --
 }
