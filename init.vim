@@ -40,6 +40,11 @@ nmap sk <C-w>k
 nmap sj <C-w>j
 nmap sl <C-w>l
 
+" fzf.vim
+nnoremap <leader>f :Files<CR>
+nnoremap <leader>h :History<CR>
+nnoremap <leader>r :Rg<CR>
+
 call plug#begin(expand('~/.vim/plugged'))
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'https://github.com/adelarsq/vim-matchit'
