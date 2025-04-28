@@ -1,23 +1,41 @@
 [color]
 ui = true
+
 [core]
-	editor = nvim
+editor = nvim
+pager = delta
+
 [diff]
 tool = vscode
+
 [difftool "vscode"]
 cmd = code --wait --diff $LOCAL $REMOTE
+
 [merge]
 tool = vscode
 ff = false
+conflictStyle = zdiff3
+
 [mergetool "vscode"]
 cmd = code --wait $MERGED
+
 [init]
 defaultBranch = main
+
 [pull]
 ff = only
+
 [user]
 name = Yuki Yamamura
 email = 126521201+yuki-yamamura@users.noreply.github.com
 
 [ghq]
-	root = ~/src
+root = ~/src
+
+[interactive]
+diffFilter = delta --color-only
+
+[delta]
+navigate = true
+line-numbers = true
+
