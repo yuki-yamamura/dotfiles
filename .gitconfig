@@ -40,7 +40,7 @@ navigate = true
 line-numbers = true
 
 [alias]
-aa = add --all
+a = add
 c = commit
 co = checkout
 d = diff
