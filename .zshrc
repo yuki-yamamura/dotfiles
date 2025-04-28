@@ -8,9 +8,14 @@ export LC_MESSAGES=en_US.UTF-8
 
 # aliases
 alias g=git
+alias v=nvim
+alias dc="docker compose"
+alias dcu="docker-compose up"
+alias dcd="docker-compose down"
+
 
 # autocomplete
-source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh 
+source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # history
