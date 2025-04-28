@@ -6,6 +6,9 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 export LANG=en_US.UTF-8
 export LC_MESSAGES=en_US.UTF-8
 
+# aliases
+alias g=git
+
 # autocomplete
 source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh

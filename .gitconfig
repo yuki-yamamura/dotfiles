@@ -39,3 +39,19 @@ diffFilter = delta --color-only
 navigate = true
 line-numbers = true
 
+[alias]
+aa = add --all
+c = commit
+co = checkout
+d = diff
+lg = log
+m = merge
+pl = pull
+ps = push
+r = reset
+rb = rebase
+s = stash
+sh = show
+st = status
+sw = switch
+
