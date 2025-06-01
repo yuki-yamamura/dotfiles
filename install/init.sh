@@ -16,6 +16,10 @@ TARGET_FILE_PATHS=(
   ~/.config/karabiner/assets/complex_modifications/fn.json
   ~/.config/karabiner/assets/complex_modifications/movements.json
   ~/.config/karabiner/assets/complex_modifications/vim.json
+  ~/.claude/CLAUDE.md
+  ~/.claude/settings.json
+  ~/.claude/react.md
+  ~/.claude/typescript.md
 )
 
 for to_file_path in "${TARGET_FILE_PATHS[@]}"; do
