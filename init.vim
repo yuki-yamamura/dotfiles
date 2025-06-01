@@ -47,6 +47,13 @@ nnoremap <leader>f :Files<CR>
 nnoremap <leader>h :History<CR>
 nnoremap <leader>r :Rg<CR>
 
+" coc-nvim
+nmap <silent> <space>h :<C-u>call CocAction('doHover')<cr>
+nmap <silent> <space>gd <Plug>(coc-definition)
+nmap <silent> <space>gr <Plug>(coc-references)
+nmap <silent> <space>r <Plug>(coc-rename)
+nmap <silent> <space>fmt <Plug>(coc-format)
+
 call plug#begin(expand('~/.vim/plugged'))
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'https://github.com/adelarsq/vim-matchit'
@@ -58,7 +65,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'cohama/lexima.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 autocmd VimEnter * highlight Normal ctermbg=NONE guibg=NONE
