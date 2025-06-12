@@ -29,3 +29,7 @@ create_symlink "$BASE_DIR/claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 create_symlink "$BASE_DIR/claude/settings.json" "$HOME/.claude/settings.json"
 create_symlink "$BASE_DIR/claude/react.md" "$HOME/.claude/react.md"
 create_symlink "$BASE_DIR/claude/typescript.md" "$HOME/.claude/typescript.md"
+create_symlink "$BASE_DIR/claude/general_review_checklist.md" "$HOME/.claude/general_review_checklist.md"
+create_symlink "$BASE_DIR/claude/backend_review_checklist.md" "$HOME/.claude/backend_review_checklist.md"
+create_symlink "$BASE_DIR/claude/frontend_review_checklist.md" "$HOME/.claude/frontend_review_checklist.md"
+
