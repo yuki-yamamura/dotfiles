@@ -45,9 +45,6 @@ export PATH="${HOME}/.pyenv/shims:${PATH}"
 # Docker Desktop
 source /Users/yuki/.docker/init-zsh.sh || true
 
-# GitHub Copilot
-eval "$(gh copilot alias -- zsh)"
-
 # paths
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$PATH:$HOME/.local/bin"
@@ -147,3 +144,4 @@ fgr() {
     fzf -m |
     xargs git restore --source=HEAD
 }
+
