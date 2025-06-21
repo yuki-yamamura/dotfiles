@@ -42,9 +42,6 @@ esac
 ## pyenv
 export PATH="${HOME}/.pyenv/shims:${PATH}"
 
-# Docker Desktop
-source /Users/yuki/.docker/init-zsh.sh || true
-
 # paths
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$PATH:$HOME/.local/bin"
