@@ -33,4 +33,5 @@ create_symlink "$BASE_DIR/claude/typescript.md" "$HOME/.claude/typescript.md"
 create_symlink "$BASE_DIR/.tmux.conf" "$HOME/.tmux.conf"
 create_symlink "$BASE_DIR/.zshrc" "$HOME/.zshrc"
 create_symlink "$BASE_DIR/.vimrc" "$HOME/.vimrc"
+create_symlink "$BASE_DIR/.gitconfig" "$HOME/.gitconfig"
 
