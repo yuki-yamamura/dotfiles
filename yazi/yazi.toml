@@ -1,0 +1,16 @@
+[opener]
+nvim = [
+  { run = 'nvim "$@"', block = true }
+]
+vscode = [
+  { run = 'code "$@"' }
+]
+
+[open]
+rules = [
+  { name = "*", use = "nvim" },
+  { name = "*", use = "vscode" },
+]
+
+[mgr]
+show_hidden = true

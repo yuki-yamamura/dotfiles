@@ -1,0 +1,10 @@
+{
+  "cSpell.userWords": [
+    "nvim",
+    "yamamura",
+    "yuki"
+  ],
+  "coc.preferences.formatOnSaveFiletypes": ["markdown"],
+  "diagnostic.enableMessage": "jump",
+  "hover.autoHide": true
+}

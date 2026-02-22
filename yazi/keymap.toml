@@ -1,0 +1,5 @@
+[[mgr.prepend_keymap]]
+on   = ["f"]
+run  = 'shell "rg --files-with-matches \"$1\" | head -30" --confirm'
+desc = "Search file contents with ripgrep"
+

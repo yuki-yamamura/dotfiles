@@ -1,0 +1,60 @@
+[color]
+ui = true
+
+[core]
+editor = nvim
+
+[pager]
+diff = delta
+log = delta
+reflog = delta
+
+[diff]
+tool = vscode
+
+[difftool "vscode"]
+cmd = code --wait --diff $LOCAL $REMOTE
+
+[merge]
+tool = vscode
+ff = false
+conflictStyle = zdiff3
+
+[mergetool "vscode"]
+cmd = code --wait $MERGED
+
+[init]
+defaultBranch = main
+
+[pull]
+ff = only
+
+[user]
+name = Yuki Yamamura
+email = 126521201+yuki-yamamura@users.noreply.github.com
+
+[ghq]
+root = ~/src
+
+[delta]
+navigate = true
+line-numbers = true
+side-by-side = true
+features = "side-by-side line-numbers"
+
+[alias]
+a = add
+c = commit
+co = checkout
+d = diff
+lg = log
+m = merge
+pl = pull
+ps = push
+rs = reset
+rb = rebase
+s = stash
+sh = show
+st = status
+sw = switch
+w = worktree

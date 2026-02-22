@@ -1,0 +1,47 @@
+{
+  "env": {
+    "EDITOR": "nvim",
+    "VISUAL": "nvim"
+  },
+  "permissions": {
+    "deny": [
+      "Bash(sudo:*)",
+      "Bash(rm -rf:*)",
+      "Write(.env*)"
+    ],
+    "ask": [
+      "Bash(rm:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git reset:*)",
+      "Bash(git rebase:*)"
+    ],
+    "additionalDirectories": [
+      "~/.claude",
+      "~/obsidian"
+    ]
+  },
+  "model": "opus",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /Users/yuki/src/github.com/yuki-yamamura/dotfiles/claude/sounds/wind-chime.aiff"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "npx ccusage statusline"
+  },
+  "enabledPlugins": {
+    "dig@kuu-marketplace": true
+  },
+  "language": "english",
+  "plansDirectory": "./tmp/plans",
+  "skipDangerousModePermissionPrompt": true
+}

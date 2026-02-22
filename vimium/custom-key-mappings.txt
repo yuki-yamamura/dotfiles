@@ -1,0 +1,6 @@
+# Insert your preferred key mappings here.
+
+map h goBack
+map l goForward
+map < moveTabLeft
+map > moveTabRight

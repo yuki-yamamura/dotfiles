@@ -1,0 +1,6 @@
+# Claude Code
+**/.claude/settings.local.json
+**/.claude/CLAUDE.local.md
+
+# Temporary directories
+**/tmp/

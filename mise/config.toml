@@ -1,0 +1,8 @@
+[tools]
+node = "24.11"
+go = "1.26.0"
+deno = "2.6"
+python = "3.11"
+uv = "0.7"
+pnpm = "10"
+golangci-lint = "2.8"
