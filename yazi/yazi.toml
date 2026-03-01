@@ -1,15 +1,14 @@
 [opener]
 nvim = [
-  { run = 'nvim "$@"', block = true }
+  { run = 'nvim %s', block = true, desc = "nvim" },
 ]
 vscode = [
-  { run = 'code "$@"' }
+  { run = 'code %s', desc = "code", orphan = true },
 ]
 
 [open]
 rules = [
-  { name = "*", use = "nvim" },
-  { name = "*", use = "vscode" },
+  { url = "*", use = ["nvim", "vscode"] },
 ]
 
 [mgr]
