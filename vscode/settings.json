@@ -32,57 +32,57 @@
       "before": ["<leader>", "h"],
       "commands": [
         {
-          "command": "editor.action.showHover"
-        }
-      ]
+          "command": "editor.action.showHover",
+        },
+      ],
     },
     {
       "before": ["<leader>", "r"],
       "commands": [
         {
-          "command": "editor.action.rename"
-        }
-      ]
+          "command": "editor.action.rename",
+        },
+      ],
     },
     {
       "before": ["<leader>", "y"],
       "commands": [
         {
-          "command": "copy-relative-path-and-line-numbers.both"
-        }
-      ]
+          "command": "copy-relative-path-and-line-numbers.both",
+        },
+      ],
     },
     {
       "before": ["<leader>", "."],
       "commands": [
         {
-          "command": "editor.action.quickFix"
-        }
-      ]
+          "command": "editor.action.quickFix",
+        },
+      ],
     },
     {
       "before": ["<leader>", "%"],
       "commands": [
         {
-          "command": "editor.emmet.action.matchTag"
-        }
-      ]
+          "command": "editor.emmet.action.matchTag",
+        },
+      ],
     },
     {
       "before": ["<leader>", "/"],
       "commands": [
         {
-          "command": "editor.action.commentLine"
-        }
-      ]
+          "command": "editor.action.commentLine",
+        },
+      ],
     },
     {
       "before": ["u"],
-      "commands": ["undo"]
+      "commands": ["undo"],
     },
     {
       "before": ["<C-r>"],
-      "commands": ["redo"]
+      "commands": ["redo"],
     },
 
     // editor operations
@@ -90,65 +90,65 @@
       "before": ["s", "H"],
       "commands": [
         {
-          "command": "workbench.action.moveEditorToLeftGroup"
-        }
-      ]
+          "command": "workbench.action.moveEditorToLeftGroup",
+        },
+      ],
     },
     {
       "before": ["s", "J"],
       "commands": [
         {
-          "command": "workbench.action.moveEditorToBelowGroup"
-        }
-      ]
+          "command": "workbench.action.moveEditorToBelowGroup",
+        },
+      ],
     },
     {
       "before": ["s", "K"],
       "commands": [
         {
-          "command": "workbench.action.moveEditorToAboveGroup"
-        }
-      ]
+          "command": "workbench.action.moveEditorToAboveGroup",
+        },
+      ],
     },
     {
       "before": ["s", "L"],
       "commands": [
         {
-          "command": "workbench.action.moveEditorToRightGroup"
-        }
-      ]
+          "command": "workbench.action.moveEditorToRightGroup",
+        },
+      ],
     },
     {
       "before": ["s", "m"],
       "commands": [
         {
-          "command": "workbench.action.minimizeOtherEditors"
-        }
-      ]
+          "command": "workbench.action.minimizeOtherEditors",
+        },
+      ],
     },
     {
       "before": ["s", "M"],
       "commands": [
         {
-          "command": "workbench.action.evenEditorWidths"
-        }
-      ]
+          "command": "workbench.action.evenEditorWidths",
+        },
+      ],
     },
     {
       "before": ["s", "-"],
       "commands": [
         {
-          "command": "workbench.action.decreaseViewWidth"
-        }
-      ]
+          "command": "workbench.action.decreaseViewWidth",
+        },
+      ],
     },
     {
       "before": ["s", "="],
       "commands": [
         {
-          "command": "workbench.action.increaseViewWidth"
-        }
-      ]
+          "command": "workbench.action.increaseViewWidth",
+        },
+      ],
     },
 
     // fold and unfold
@@ -156,49 +156,49 @@
       "before": ["<leader>", "f"],
       "commands": [
         {
-          "command": "editor.fold"
-        }
-      ]
+          "command": "editor.fold",
+        },
+      ],
     },
     {
       "before": ["<leader>", "f", "a"],
       "commands": [
         {
-          "command": "editor.foldAll"
-        }
-      ]
+          "command": "editor.foldAll",
+        },
+      ],
     },
     {
       "before": ["<leader>", "f", "r"],
       "commands": [
         {
-          "command": "editor.foldRecursively"
-        }
-      ]
+          "command": "editor.foldRecursively",
+        },
+      ],
     },
     {
       "before": ["<leader>", "u"],
       "commands": [
         {
-          "command": "editor.unfold"
-        }
-      ]
+          "command": "editor.unfold",
+        },
+      ],
     },
     {
       "before": ["<leader>", "u", "a"],
       "commands": [
         {
-          "command": "editor.unfoldAll"
-        }
-      ]
+          "command": "editor.unfoldAll",
+        },
+      ],
     },
     {
       "before": ["<leader>", "u", "r"],
       "commands": [
         {
-          "command": "editor.unfoldRecursively"
-        }
-      ]
+          "command": "editor.unfoldRecursively",
+        },
+      ],
     },
 
     // definitions and references
@@ -206,25 +206,25 @@
       "before": ["<leader>", "g", "d"],
       "commands": [
         {
-          "command": "editor.action.revealDefinition"
-        }
-      ]
+          "command": "editor.action.revealDefinition",
+        },
+      ],
     },
     {
       "before": ["<leader>", "g", "r"],
       "commands": [
         {
-          "command": "editor.action.goToReferences"
-        }
-      ]
+          "command": "editor.action.goToReferences",
+        },
+      ],
     },
     {
       "before": ["<leader>", "p", "d"],
       "commands": [
         {
-          "command": "editor.action.peekDefinition"
-        }
-      ]
+          "command": "editor.action.peekDefinition",
+        },
+      ],
     },
 
     // cSpell
@@ -232,19 +232,19 @@
       "before": ["<leader>", "a", "w"],
       "commands": [
         {
-          "command": "cSpell.addWordToDictionary"
-        }
-      ]
+          "command": "cSpell.addWordToDictionary",
+        },
+      ],
     },
     // GitHub Copilot
     {
       "before": ["<leader>", "i"],
       "commands": [
         {
-          "command": "inlineChat.start"
-        }
-      ]
-    }
+          "command": "inlineChat.start",
+        },
+      ],
+    },
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     // base
@@ -252,49 +252,49 @@
       "before": ["<leader>", "/"],
       "commands": [
         {
-          "command": "editor.action.commentLine"
-        }
-      ]
+          "command": "editor.action.commentLine",
+        },
+      ],
     },
     {
       "before": ["<leader>", "w"],
       "commands": [
         {
-          "command": "editor.emmet.action.wrapWithAbbreviation"
-        }
-      ]
+          "command": "editor.emmet.action.wrapWithAbbreviation",
+        },
+      ],
     },
     // GitHub Copilot
     {
       "before": ["<leader>", "i"],
       "commands": [
         {
-          "command": "inlineChat.start"
-        }
-      ]
-    }
+          "command": "inlineChat.start",
+        },
+      ],
+    },
   ],
 
   // frontend
   "files.associations": {
     "*.css": "css",
-    "css": "css"
+    "css": "css",
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.fixAll.stylelint": "explicit"
+    "source.fixAll.stylelint": "explicit",
   },
   "emmet.syntaxProfiles": {
     "jsx": {
       "markup.attributes": {
-        "class*": "className"
+        "class*": "className",
       },
       "markup.valuePrefix": {
-        "class*": "styles"
-      }
-    }
+        "class*": "styles",
+      },
+    },
   },
   "javascript.preferences.jsxAttributeCompletionStyle": "auto",
   "typescript.preferences.jsxAttributeCompletionStyle": "auto",
@@ -309,16 +309,16 @@
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
-    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
   ],
 
   // Go
   "[go]": {
     "editor.defaultFormatter": "golang.go",
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   "gopls": {
-    "formatting.gofumpt": true
+    "formatting.gofumpt": true,
   },
 
   // Markdown
@@ -329,7 +329,7 @@
 
   // Terraform
   "[terraform]": {
-    "editor.defaultFormatter": "hashicorp.terraform"
+    "editor.defaultFormatter": "hashicorp.terraform",
   },
 
   // GitHub Copilot
@@ -343,12 +343,13 @@
     "coc-words": {
       "name": "coc-words",
       "path": "~/.config/nvim/coc-settings.json",
-      "addWords": false
-    }
+      "addWords": false,
+    },
   },
   "files.watcherExclude": {
     "**/.bloop": true,
-    "**/.metals": true
+    "**/.metals": true,
   },
-  "claudeCode.preferredLocation": "panel"
+  "claudeCode.preferredLocation": "panel",
+  "go.toolsManagement.autoUpdate": true,
 }
